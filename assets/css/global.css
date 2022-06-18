@@ -1,0 +1,172 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 1%;
+}
+.navbar__left{
+width:40%
+}
+.navbar__left--content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.spacing__navbar{
+  text-decoration: none;
+  color: #5a5858;
+  font-family: 'mulish';
+  font-size: 18px;
+  font-weight: 600;
+}
+.navbar__right{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+.form__search--text{
+display: none;
+height:30px;
+border: 1px solid #c7c6c6;
+border-radius:10px;
+outline: none;
+font-family: 'Open Sans', sans-serif;
+padding: 0 18px;
+margin: 0 3%;
+}
+.form__search:hover .form__search--text{
+  display: block;
+
+}
+
+.btn__nav{
+  text-decoration: none;
+}
+.btn__signup{
+  background-color: #5F2EEA;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-family: 'Mulish';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.navigation__button--icon-mobile{
+  display: block;
+  border: none;
+  background-color: transparent;
+}
+.navbar__mobile{
+  background-color: #f5f5f5;
+  padding: 5% 0;
+  height: 30%;
+  width: 100%;
+}
+.navbar__mobile--content{
+  width: 100%;
+	padding: 2% ;
+	border-top: 0.5px solid #797878;
+	border-bottom: 0.5px solid #797878;
+}
+.navbar__mobile--content-text{
+  text-decoration: none;
+  color: #414141;
+}
+.navbar__mobile p{
+  padding: 5% 0;
+}
+.container-fluid{
+  margin: 0;
+  padding: 0;
+  background-color:#ebecee ;
+}
+.footer__homepage{
+  margin-top: 10%;
+}
+.wrapper__footer{
+  align-items:baseline ;
+}
+
+.sub__menu--footer{
+  margin-bottom: 30px;
+}
+.text__footer--mobile{
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+}
+.text__footer--explore{
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+}
+.sub__menu--footer-sponsor{
+  display: flex;
+  flex-direction: column;
+}
+.logo__sponsor{
+  margin:3% 0;
+}
+
+.col__icons{
+  margin: 20px 0;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+.col__icons i{
+  margin-right: 15px;
+}
+.col__icons a{
+  text-decoration: none;
+  color:#797878;
+}
+@media (max-width: 767.98px) {
+  .navbar{
+    padding: 0 5%;
+  }
+  /* .navbar__right{
+    display: none;
+  } */
+	.navigation__homepage--mobile {
+		background-color: #ffffff;
+		height: 370px;
+		width: 100%;
+		box-shadow: 0px 4px 16px rgba(186, 186, 186, 0.08);
+	}
+}
+
+@media (max-width: 991.98px) {
+  .navbar{
+    padding: 0 5%;
+  }
+  /* .navbar__right{
+    display: none;
+  } */
+	.navbar__mobile {
+		display: none;
+	}
+	.navigation__button--icon-mobile {
+		display: block;
+		border: none;
+		background-color: transparent;
+	}
+}
+
+@media (max-width: 575.98px) {
+  .navbar{
+    padding: 5%;
+  }
+}
