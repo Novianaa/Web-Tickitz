@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 2% 0;
 }
 .dashboard__left{
   text-align: center;
@@ -18,7 +19,7 @@
 }
 
 .card__movie{
-  margin: 5% 0;
+  margin: 3% 0;
 }
 .wrapper__movie--tagline{
   display: flex;
@@ -55,7 +56,7 @@
   background-color:#e2e5ef ;
   box-shadow: 0px 8px 30px rgba(186, 186, 186, 0.25);
   border-radius: 8px;
-  padding: 5% 0;
+  padding: 5%;
   margin-bottom: 20%;
   
 }
@@ -126,7 +127,7 @@ background-color: #ffffff;
 .card__list--upcoming{
   border: 1px solid #d6d2d2;
   border-radius: 8px;
-  padding: 5% 0;
+  padding: 5%;
   margin-bottom: 20%;
 }
 .card__list--content-upcoming h6{
@@ -143,14 +144,13 @@ background-color: #ffffff;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.4px;
-
 }
 .container__button{
   overflow-x: hidden;
 }
 .wrapper__subcribe{
-  margin-top: 10% ;
-  padding: 50px 0;
+  margin: 8% 0;
+  padding: 5% 0;
   box-shadow: 0px 16px 32px #bababa;
   border-radius: 8px;
 }
@@ -192,8 +192,91 @@ background-color: #ffffff;
   line-height: 22px;
   letter-spacing: 0.75px;
 }
+@media (max-width: 992px) {
+  .tagline{
+    font-family: 'Mulish';
+    font-size: 18px;
 
-@media (max-width: 575.98px) {
+  }
+  .tagline1{
+    font-family: 'Mulish';
+    font-size: 35px;
+    color: #5F2EEA;
+    font-weight: 700;
+  }
+  .wrapper__movie--list .row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x:scroll;
+  }
+  .card__list{
+  width: 197px;
+  }
+  .wrapper__movie--list-upcoming{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x:scroll;
+  }
+  .card__list--upcoming{
+  width: 197px;
+  }
+  .form__email{
+    width: 85%;
+		margin: 20px 0px;
+  }
+  .btn__join{
+    width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .dashboard{
+    display: block;
+    flex-direction: column;
+    margin: 5%;
+    text-align: center;
+  }
+  .dashboard__left{
+    /* text-align:center; */
+    margin: 10% 0;
+  }
+  .dashboard__right--img{
+    width: 90%;
+  }
+  .tagline{
+    font-family: 'Mulish';
+  }
+  .tagline1{
+    font-family: 'Mulish';
+    font-size: 40px;
+    color: #5F2EEA;
+    font-weight: 700;
+  }
+  .wrapper__movie--list .row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x:scroll;
+  }
+  .card__list{
+  width: 197px;
+  }
+  .wrapper__movie--list-upcoming{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x:scroll;
+  }
+  .card__list--upcoming{
+  width: 197px;
+  }
+  .form__email{
+    width: 85%;
+		margin: 20px 0px;
+  }
+  .btn__join{
+    width: 85%;
+  }
+  
+}
+@media (max-width: 576px) {
   .dashboard{
     display: block;
     flex-direction: column;
@@ -201,6 +284,16 @@ background-color: #ffffff;
   }
   .dashboard__left{
     text-align:start;
+    margin: 10% 0;
+  }
+  .tagline{
+    font-family: 'Mulish';
+  }
+  .tagline1{
+    font-family: 'Mulish';
+    font-size: 40px;
+    color: #5F2EEA;
+    font-weight: 700;
   }
   .wrapper__movie--list .row {
   display: flex;
@@ -228,90 +321,5 @@ background-color: #ffffff;
   }
   .btn__join{
     width: 85%;
-  }
-  .sub__menu--footer{
-    margin-bottom: 4%;
-  }
-  .text__footer--mobile{
-  margin-bottom: 8%;
-  }
-  .text__footer--explore{
-    display: block;
-    flex-direction: row;
-    margin-bottom: 8%;
-  }
-  .sub__menu--footer-sponsor{
-    display: block;
-    flex-direction: row;
-    margin-bottom: 10%;
-  }
-  .logo__sponsor{
-    margin-right:8%;
-  }
-  .icons__mobile  {
-    display: flex;
-    flex-direction: row;
-    margin-right: 8%;
-    margin-bottom: 8%;
-  }
-  .icons__mobile .col__icons a{
-    display: none;
-  }  
-}
-
-@media (max-width: 767.98px) {
-  .dashboard__right--img{
-    width: 90%;
-  }
-  .wrapper__movie--list .row {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x:scroll;
-  }
-  .card__list{
-  width: 197px;
-  }
-  .wrapper__movie--list-upcoming{
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x:scroll;
-  }
-  .card__list--upcoming{
-  width: 197px;
-  }
-  .form__email{
-    width: 85%;
-		margin: 20px 0px;
-  }
-  .btn__join{
-    width: 85%;
-  }
-  .sub__menu--footer{
-    margin-bottom: 4%;
-  }
-  .text__footer--mobile{
-  margin-bottom: 8%;
-  }
-  .text__footer--explore{
-    display: block;
-    flex-direction: row;
-    margin-bottom: 8%;
-  }
-  .sub__menu--footer-sponsor{
-    display: block;
-    flex-direction: row;
-    margin-bottom: 10%;
-  }
-  .logo__sponsor{
-    margin-right:8%;
-  }
-  .icons__mobile  {
-    display: flex;
-    flex-direction: row;
-    margin-right: 8%;
-    margin-bottom: 8%;
-  }
-  .icons__mobile .col__icons a{
-    display: none;
-  }
+  } 
 }

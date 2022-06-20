@@ -1,0 +1,258 @@
+.main__booking{
+  background-color: #EFF0F7;
+}
+.booking__ticket{
+  padding: 3% 0;
+}
+.booking__ticket--left{
+  padding: 3% 0;
+}
+.booking__ticket--left p{
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+
+}
+.choose__movie{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2% 4%;
+  margin: 0 3% 3% 0;
+}
+.name__movie{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+}
+.choose__movie input{
+  background: #EFF0F7;
+  opacity: 0.8;
+  border: 8px solid #EFF0F7;
+  border-radius: 4px;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #5F2EEA;
+}
+.seat__booking{
+  background-color: #ffffff;
+  padding: 2%;
+  margin: 0 3% 3% 0;
+  border-radius: 8px;
+}
+.wrapper__btn--booking{
+  justify-content:space-between;
+}
+.btn__choose{
+  width: 40%;
+  height: 50px;
+  border: 2px solid #5F2EEA;
+  border-radius: 8px;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  letter-spacing: 0.75px;
+  color: #5F2EEA;
+}
+.checkout{
+  width: 40%;
+  margin: 0 3% 3% 0;
+
+}
+.btn__checkout{
+  width: 100%;
+  background-color: #5F2EEA;
+  border: solid #5F2EEA;
+  border-radius: 8px;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  filter: drop-shadow(0px 8px 16px rgba(95, 46, 234, 0.24));
+}
+.booking__ticket{
+  display: flex;
+}
+.booking__ticket--right{
+  padding: 3% 0;
+  
+}
+.order__info--text{
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+}
+.order__info{
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 5%;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgba(186, 186, 186, 0.24);
+}
+.order__info--tittle{
+  margin: 5%;
+  font-family: 'Mulish';
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.name__cinema{
+  margin: 4% 0;
+}
+.selected__movie{
+  justify-content: space-between;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.date__movie{
+  justify-content: space-between;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.price__ticket{
+  justify-content: space-between;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.seat__choose{
+  justify-content: space-between;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.total__payment{
+  justify-content: space-between;
+  align-content: center;
+  margin: 8% 0 3% 0;
+}
+.total__text{
+  font-family: 'Mulish';
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.75px;
+}
+.total__dolar{
+  font-family: 'Mulish';
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.75px;
+  color: #5F2EEA;
+}
+@media (max-width: 768px) {
+  .booking__ticket--left{
+    width: 100%;
+  }
+  .booking__ticket{
+    display: block;
+  }
+  .booking__ticket--select-wrapper{
+    display: none;
+  }
+  .wrapper__btn--booking{
+    justify-content: space-between;
+  }
+  .booking__ticket--right{
+    width: 100%;
+  }
+  .order__info--text{
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+  }
+  .order__info--tittle{
+  font-size: 18px;
+  font-family: 'Mulish';
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  }
+  .selected__movie{
+  justify-content: space-between;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  }
+  .date__movie{
+  justify-content: space-between;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  }
+  .price__ticket{
+  justify-content: space-between;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  }
+  .seat__choose{
+  justify-content: space-between;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  }
+}
+@media (max-width: 576px) {
+  .booking__ticket{
+    display: block;
+  }
+  .booking__ticket--select-wrapper{
+    display: none;
+  }
+  .checkout{
+    width: 100%;
+  }
+
+}

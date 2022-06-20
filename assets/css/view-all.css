@@ -1,0 +1,137 @@
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0 3% 0;
+}
+.text__list--name{
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+}
+.head__right{
+  width: 30%;
+}
+.costum__input{
+  background-color: #fff;
+  border: 1px solid #DEDEDE;
+  border-radius: 16px;
+  padding: 3% 3%;
+}
+.container__button{
+  overflow-x: hidden;
+}
+.btn1{
+  background: #5F2EEA;
+  box-shadow: 0px 8px 30px rgba(95, 46, 234, 0.3);
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  margin: 2% 0.5%;
+
+}
+.btn2{
+  border: 1px solid #5F2EEA;
+  border-radius: 4px;
+  color: #5F2EEA;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  margin: 2% 0.5%;
+}
+.container__all--movie{
+  margin: 4% 0;
+  padding: 4% 2%;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+}
+.wrapper__movie--list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card__list--movie{
+  border: 0.5px solid #dedede;
+  border-radius: 8px;
+  padding: 1%;
+  margin: 1%;
+}
+.card__list--content-text{
+  margin: 10%  0;
+}
+.btn__custom{
+  border: 1px solid #5F2EEA;
+  border-radius: 4px;
+  color: #5F2EEA;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  margin: 2% 0.5%;
+  
+}
+.btn__custom:hover{
+  color: #ffffff;
+  background-color: #5f2eea;
+}
+
+.schedule__pagination{
+	display: flex;
+	justify-content: center; 
+  margin: 20px 0;
+}
+.schedule__pagination--button{
+  text-decoration: none;
+	color: #ffffff;
+	margin: 0px 12px;
+	padding: 8px 14px;
+	background: #5f2eea;
+	box-shadow: 0px 8px 16px rgba(95, 46, 234, 0.24);
+	border-radius: 8px;
+  margin-bottom: 6%;
+}
+.schedule__pagination--button-previous{
+  text-decoration: none;
+	color: #5f2eea;
+	margin: 0px 12px;
+	padding: 8px 14px;
+	background: #ffffff;
+	box-shadow: 0px 8px 16px rgba(95, 46, 234, 0.24);
+	border-radius: 8px;
+  margin-bottom: 6%;
+}
+@media (max-width: 576px){
+  .head{
+    display: block;
+    flex-direction: column;
+  }
+  .head__right{
+    display: flex;
+    margin: 4% 0;
+  }
+  .costum__input{
+    margin: 0 3%;
+    padding: 10%;
+  }
+  .container__all--movie{
+    display: flex;
+    justify-content: center;
+    background-color: #F5F6F8;
+  }
+  .card__list--movie{
+    background-color: #ffffff;
+    width: 152px;
+  }
+  .img__cover{
+    width: 120px;
+    margin-top: 6%;
+  }
+}
